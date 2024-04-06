@@ -27,9 +27,9 @@ class ShowOptions1 extends StatelessWidget {
         ),
         SizedBox(height: 10),
         TextWidget(
-          text: 'about',
-          description: 'To see what is terminal portofolio',
-          onTap: () => onOptionSelected('about'),
+          text: 'fun fact',
+          description: 'To see interesting things about me',
+          onTap: () => onOptionSelected('fun fact'),
         ),
         SizedBox(height: 10),
         TextWidget(

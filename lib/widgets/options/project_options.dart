@@ -34,7 +34,7 @@ class ProjectOptions extends StatelessWidget {
                 child: GestureFlipCard(
                   frontImagePath: 'assets/project_1.png',
                   backContent: Text(
-                    'Project 1 Description',
+                    'Gulamu is an application that help users to track their sugar blood online and realtime',
                     style: TextStyle(
                         fontSize: 16,
                         color: Colors.white,
@@ -44,9 +44,9 @@ class ProjectOptions extends StatelessWidget {
               ),
               Flexible(
                 child: GestureFlipCard(
-                  frontImagePath: 'assets/project_1.png',
+                  frontImagePath: 'assets/project_2.png',
                   backContent: Text(
-                    'Project 1 Description',
+                    'Histel is an application, that help Timorese people to learn the history with unique and interesting ways.',
                     style: TextStyle(
                         fontSize: 16,
                         color: Colors.white,
@@ -56,9 +56,9 @@ class ProjectOptions extends StatelessWidget {
               ),
               Flexible(
                 child: GestureFlipCard(
-                  frontImagePath: 'assets/project_1.png',
+                  frontImagePath: 'assets/project_3.png',
                   backContent: Text(
-                    'Project 1 Description',
+                    'GreenApp is an application of online green things store, that allows the users to purchase green product online. ',
                     style: TextStyle(
                         fontSize: 16,
                         color: Colors.white,

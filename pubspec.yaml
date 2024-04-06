@@ -14,6 +14,7 @@ dependencies:
   flutter_charts: ^0.5.2
   google_fonts: ^6.2.1
   intl: ^0.19.0
+  responsive_builder: ^0.7.0
   url_launcher: ^6.2.5
 
 dev_dependencies:
@@ -26,6 +27,7 @@ flutter:
 
   assets:
     - assets/
+    - assets/project_3.png
 
   fonts:
     - family: Roboto

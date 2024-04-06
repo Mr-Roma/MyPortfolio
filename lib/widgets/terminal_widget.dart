@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portofolio_web/widgets/date_widget.dart';
-import 'package:portofolio_web/widgets/options/about_options.dart';
+import 'package:portofolio_web/widgets/options/funfact_options.dart';
 import 'package:portofolio_web/widgets/options/bio_options.dart';
 import 'package:portofolio_web/widgets/options/ls_options.dart';
 import 'package:portofolio_web/widgets/options/project_options.dart';
@@ -24,7 +24,38 @@ class _TerminalWidgetState extends State<TerminalWidget> {
     ),
     'bio': BioOptions(),
     'skills': SkillsOptions(),
-    'about': AboutOptions(),
+    'fun fact': AboutOptions(
+      funFacts: [
+        FunFact(
+          title: 'Best Mobile Programmer',
+          description:
+              'Winning the title of Best Mobile Programmer in the Hackathon Competition',
+          imageUrl: 'assets/best_mp.png', // Optional image URL
+        ),
+        FunFact(
+          title: 'Futsal Athlete',
+          description:
+              'The Main Player of Telkom University Futsal Athlete player',
+          imageUrl: 'assets/athlete.jpeg', // Optional image URL
+        ),
+        FunFact(
+          title: 'Alumni of Youth Parliament of Timor-Leste',
+          description: 'Former President of Dili Bench Parliament',
+          imageUrl: 'assets/apftl.jpeg', // Optional image URL
+        ),
+        FunFact(
+          title: 'Google For Developers Student Club Telkom University',
+          description: 'Member of Web and App Dev',
+          imageUrl: 'assets/gdsc.png', // Optional image URL
+        ),
+        FunFact(
+          title: 'Become Mahasiswa of the Year of 2022',
+          description:
+              'In 2022, I am nominated as the Student of the Year of Informatics Faculty in Telkom University',
+          imageUrl: 'assets/mahasiswa_of_the_year.jpeg', // Optional image URL
+        ),
+      ],
+    ),
     'projects': ProjectOptions(),
     // Add more commands and their respective widgets here
   };
