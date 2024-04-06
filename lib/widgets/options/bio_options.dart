@@ -129,25 +129,52 @@ class BioOptions extends StatelessWidget {
             ],
           ),
           Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              SizedBox(
-                width: 10,
-                height: 10,
-                child: Image.asset('assets/youtube.png'),
+              Row(
+                children: [
+                  SizedBox(
+                    width: 10,
+                    height: 10,
+                    child: Image.asset('assets/youtube.png'),
+                  ),
+                  SizedBox(
+                    width: 5,
+                  ),
+                  TextBio(teks: 'Facebook', color: Colors.amber, fontsize: 14),
+                  InkWell(
+                    onTap: () => launch(
+                        'https://www.facebook.com/profile.php?id=100006299598508'),
+                    child: TextBio(
+                        teks: '@FacebookLink',
+                        color: Colors.white,
+                        fontsize: 14),
+                  )
+                ],
               ),
-              SizedBox(
-                width: 5,
+              Row(
+                children: [
+                  SizedBox(
+                    width: 10,
+                    height: 10,
+                    child: Image.asset('assets/linkedin.png'),
+                  ),
+                  SizedBox(
+                    width: 5,
+                  ),
+                  TextBio(teks: 'Linkedin', color: Colors.amber, fontsize: 14),
+                  InkWell(
+                    onTap: () => launch(
+                        'https://www.linkedin.com/in/romario-marcal-60a481258/'),
+                    child: TextBio(
+                        teks: '@LinkedinLink',
+                        color: Colors.white,
+                        fontsize: 14),
+                  )
+                ],
               ),
-              TextBio(teks: 'Facebook', color: Colors.amber, fontsize: 14),
-              InkWell(
-                onTap: () => launch(
-                    'https://www.facebook.com/profile.php?id=100006299598508'),
-                child: TextBio(
-                    teks: '@FacebookLink', color: Colors.white, fontsize: 14),
-              )
             ],
-          )
+          ),
         ],
       ),
     );
