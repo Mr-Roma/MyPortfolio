@@ -19,6 +19,8 @@ class _TerminalInputState extends State<TerminalInput> {
       children: [
         Expanded(
           child: TextField(
+            showCursor: true,
+            cursorColor: Colors.white,
             controller: _controller,
             onSubmitted: (value) {
               widget.onCommandEntered(value);

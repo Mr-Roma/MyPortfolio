@@ -34,8 +34,7 @@ class _TerminalWidgetState extends State<TerminalWidget> {
         ),
         FunFact(
           title: 'Futsal Athlete',
-          description:
-              'The Main Player of Telkom University Futsal Athlete player',
+          description: 'The Futsal Player of Informatics Futsal Athlete player',
           imageUrl: 'assets/athlete.jpeg', // Optional image URL
         ),
         FunFact(
@@ -62,6 +61,7 @@ class _TerminalWidgetState extends State<TerminalWidget> {
   @override
   void initState() {
     super.initState();
+
     // Request keyboard focus on widget build
     WidgetsBinding.instance.addPostFrameCallback((_) {
       FocusScope.of(context).requestFocus(FocusNode());
