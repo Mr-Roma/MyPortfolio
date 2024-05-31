@@ -23,8 +23,8 @@ flutter pub get
 
 Run the project
 
-```bash
 Make sure your project are connected with the internet, then just run the command below :
+```bash
 flutter run
 ```
 
