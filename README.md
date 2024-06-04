@@ -12,7 +12,7 @@ https://portfolio-web-5ec79.web.app/
 Clone this project
 
 ```bash
-https://github.com/Mr-Roma/Motionhack10.git
+https://github.com/Mr-Roma/MyPortfolio.git
 ```
 
 Get the dependency
